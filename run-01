@@ -1,0 +1,9 @@
+#!/bin/bash
+
+curr_dir = "c:/.../
+cd $curr_dir
+timestamp = $(date)
+
+message == "running file in $curr_dir ; run: $timestamp
+echo $message >> log.txt; echo $message 
+python3.9 $cuur_dir/scr/main.py 
